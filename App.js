@@ -23,10 +23,17 @@ export default function App() {
             style={styles.profile}
           />
         </View>
-
         <View style={styles.Searchnavbar}>
           <TextInput placeholder="Search" style={styles.search} />
         </View>
+
+        <View style={styles.image}>
+          <Image
+            source={require("./assets/IntroScreenPhoto.jpg")}
+            style={styles.imagephoto}
+          />
+        </View>
+
         <Text style={styles.Heading}>Services</Text>
         <View style={styles.mainbox}>
           <View style={styles.itemone}>
@@ -116,6 +123,10 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#e6e6e6",
   },
+  image: {
+    flexDirection: "row",
+    justifyContent: "center",
+  },
   navbar: {
     marginTop: 24,
     width: 400,
@@ -143,7 +154,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     padding: 5,
     paddingLeft: 10,
-    borderRadius:10,
+    borderRadius: 10,
   },
   mainbox: {
     flexDirection: "row",
