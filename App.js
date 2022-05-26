@@ -8,7 +8,8 @@ import {
   ScrollView,
 } from "react-native";
 import { Feather } from "@expo/vector-icons";
-import { Ionicons } from '@expo/vector-icons'; 
+import { Ionicons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 export default function App() {
   return (
@@ -25,11 +26,19 @@ export default function App() {
         <View style={styles.Searchnavbar}>
           <TextInput placeholder="Search" style={styles.search} />
         </View>
-          <Text style={styles.Heading}>Services</Text>
+        <Text style={styles.Heading}>Services</Text>
         <View style={styles.mainbox}>
           <View style={styles.itemone}>
-          <Ionicons name="tv" size={100} color="black" />
-          <Text style={styles.miniheading}>Tv Repair</Text>
+            <Ionicons name="tv" size={100} color="black" />
+            <Text style={styles.miniheading}>Tv Repair</Text>
+          </View>
+          <View style={styles.itemone}>
+            <MaterialCommunityIcons
+              name="washing-machine"
+              size={100}
+              color="black"
+            />
+            <Text style={styles.miniheading}>Washingmachine Repair</Text>
           </View>
         </View>
 
@@ -74,29 +83,30 @@ const styles = StyleSheet.create({
   mainbox: {
     flexDirection: "row",
     flexWrap: "wrap",
-    justifyContent: 'space-around',
+    justifyContent: "space-around",
   },
-  itemone:{
-    backgroundColor: '#fff',
-    color: '#000',
-    height:150,
-    width:150,
-    flexDirection: 'column',
-    justifyContent: 'space-around',
-    alignItems: 'center',
+  itemone: {
+    backgroundColor: "#fff",
+    color: "#000",
+    height: 150,
+    width: 150,
+    flexDirection: "column",
+    justifyContent: "space-around",
+    alignItems: "center",
     borderRadius: 10,
-    marginBottom:22,
-  }, 
+    marginBottom: 22,
+  },
   Heading: {
     fontSize: 25,
-    fontWeight: 'bold',
-    marginTop:10,
-    marginBottom:10,
-    marginLeft:10,
+    fontWeight: "bold",
+    marginTop: 10,
+    marginBottom: 10,
+    marginLeft: 10,
   },
   miniheading: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    marginBottom:10,
-  }
+    fontSize: 15,
+    fontWeight: "bold",
+    marginBottom: 10,
+    textAlign: "center",
+  },
 });
