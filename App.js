@@ -25,6 +25,8 @@ export default function App() {
           <TextInput placeholder="Search" style={styles.search} />
         </View>
 
+        <View style={styles.mainbox}></View>
+
         <StatusBar style="auto" />
       </View>
     </ScrollView>
@@ -62,5 +64,9 @@ const styles = StyleSheet.create({
     width: 350,
     backgroundColor: "#fff",
     padding: 5,
+  },
+  mainbox: {
+    flexDirection: "row",
+    flexWrap: "wrap",
   },
 });
