@@ -85,7 +85,10 @@ export default function App() {
               <Text style={styles.miniprice}>Service Cost Start</Text>
               <Text style={styles.price}>Rs:₹500/-</Text>
             </View>
-            <Image />
+            <Image
+              source={require("./assets/profile.jpg")}
+              style={styles.personphoto}
+            />
           </View>
         </View>
 
@@ -161,14 +164,14 @@ const styles = StyleSheet.create({
     justifyContent: "space-around",
   },
   profilebox: {
-    width: 350,
+    width: 380,
     height: 150,
     backgroundColor: "#fff",
     borderRadius: 10,
     marginBottom: 15,
     flexDirection: "row",
     justifyContent: "space-around",
-    padding: 10,
+    alignItems: "center",
   },
   name: {
     fontSize: 25,
@@ -185,5 +188,10 @@ const styles = StyleSheet.create({
   miniprice: {
     fontSize: 13,
     color: "green",
+  },
+  personphoto: {
+    height: 100,
+    width: 100,
+    borderRadius: 50,
   },
 });
