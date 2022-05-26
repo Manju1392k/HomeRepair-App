@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
     marginTop: 24,
     width: 400,
     height: 70,
-    backgroundColor: "#000",
+    backgroundColor: "#0066ff",
     flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "center",
@@ -133,7 +133,7 @@ const styles = StyleSheet.create({
   Searchnavbar: {
     width: 400,
     height: 70,
-    backgroundColor: "#000",
+    backgroundColor: "#0066ff",
     flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "center",
@@ -142,6 +142,8 @@ const styles = StyleSheet.create({
     width: 350,
     backgroundColor: "#fff",
     padding: 5,
+    paddingLeft: 10,
+    borderRadius:10,
   },
   mainbox: {
     flexDirection: "row",
