@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-around",
   },
   profilebox: {
-    width: 380,
+    width: 370,
     height: 150,
     backgroundColor: "#fff",
     borderRadius: 10,
