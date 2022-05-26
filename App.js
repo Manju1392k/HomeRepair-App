@@ -148,7 +148,14 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   center: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-  }
+    flexDirection: "row",
+    justifyContent: "space-around",
+  },
+  profilebox: {
+    width: 350,
+    height: 150,
+    backgroundColor: "#fff",
+    borderRadius: 10,
+    marginBottom: 15,
+  },
 });
