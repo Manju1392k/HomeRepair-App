@@ -147,4 +147,8 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     textAlign: "center",
   },
+  center: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+  }
 });
