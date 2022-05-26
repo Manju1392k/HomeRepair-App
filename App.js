@@ -138,6 +138,34 @@ export default function App() {
               style={styles.personphoto}
             />
           </View>
+
+          <View style={styles.profilebox}>
+            <View>
+              <Text style={styles.name}>Shiva</Text>
+              <Text style={styles.expertname}>Computer Repair Expert</Text>
+              <Text style={styles.miniprice}>Service Cost Starting</Text>
+              <Text style={styles.price}>Rs:₹2700/-</Text>
+            </View>
+            <Image
+              source={require("./assets/profile.jpg")}
+              style={styles.personphoto}
+            />
+          </View>
+
+          <View style={styles.profilebox}>
+            <View>
+              <Text style={styles.name}>Shiva</Text>
+              <Text style={styles.expertname}>
+                ConstructionWork Repair Expert
+              </Text>
+              <Text style={styles.miniprice}>Service Cost Starting</Text>
+              <Text style={styles.price}>Rs:₹2700/-</Text>
+            </View>
+            <Image
+              source={require("./assets/profile.jpg")}
+              style={styles.personphoto}
+            />
+          </View>
         </View>
 
         <StatusBar style="auto" />
