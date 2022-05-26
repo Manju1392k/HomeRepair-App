@@ -127,6 +127,11 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "center",
   },
+  imagephoto: {
+    width: 350,
+    height: 130,
+    marginTop: 10,
+  },
   navbar: {
     marginTop: 24,
     width: 400,
