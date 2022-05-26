@@ -56,6 +56,22 @@ export default function App() {
             />
             <Text style={styles.miniheading}>Fan Repair</Text>
           </View>
+          <View style={styles.itemone}>
+            <MaterialCommunityIcons
+              name="microsoft-xbox-controller"
+              size={100}
+              color="black"
+            />
+            <Text style={styles.miniheading}>Console Repair</Text>
+          </View>
+          <View style={styles.itemone}>
+            <MaterialCommunityIcons
+              name="office-building"
+              size={100}
+              color="black"
+            />
+            <Text style={styles.miniheading}>Construction Work Repair</Text>
+          </View>
         </View>
 
         <StatusBar style="auto" />
