@@ -82,7 +82,9 @@ export default function App() {
             <View>
               <Text style={styles.name}>T.Ramesh</Text>
               <Text style={styles.expertname}>Tv Repair Expert</Text>
-              <Text>Service Cost Rs:₹500/- </Text>
+              <Text style={styles.price}>
+                Service Cost Rs:₹500/- Starting..
+              </Text>
             </View>
           </View>
         </View>
@@ -174,6 +176,10 @@ const styles = StyleSheet.create({
   },
   expertname: {
     fontSize: 15,
-    marginTop: 10,
+    marginTop: 5,
+  },
+  price: {
+    fontSize: 18,
+    fontWeight: "bold",
   },
 });
