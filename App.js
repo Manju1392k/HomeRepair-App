@@ -123,6 +123,21 @@ export default function App() {
               style={styles.personphoto}
             />
           </View>
+
+          <View style={styles.profilebox}>
+            <View>
+              <Text style={styles.name}>SriRam</Text>
+              <Text style={styles.expertname}>
+                Washingmachine Repair Expert
+              </Text>
+              <Text style={styles.miniprice}>Service Cost Starting</Text>
+              <Text style={styles.price}>Rs:₹1700/-</Text>
+            </View>
+            <Image
+              source={require("./assets/profile.jpg")}
+              style={styles.personphoto}
+            />
+          </View>
         </View>
 
         <StatusBar style="auto" />
