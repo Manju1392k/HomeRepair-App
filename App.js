@@ -40,6 +40,22 @@ export default function App() {
             />
             <Text style={styles.miniheading}>Washingmachine Repair</Text>
           </View>
+          <View style={styles.itemone}>
+            <MaterialCommunityIcons
+              name="desktop-tower-monitor"
+              size={100}
+              color="black"
+            />
+            <Text style={styles.miniheading}>Computer Repair</Text>
+          </View>
+          <View style={styles.itemone}>
+            <MaterialCommunityIcons
+              name="ceiling-fan"
+              size={100}
+              color="black"
+            />
+            <Text style={styles.miniheading}>Fan Repair</Text>
+          </View>
         </View>
 
         <StatusBar style="auto" />
