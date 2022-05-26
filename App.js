@@ -90,6 +90,18 @@ export default function App() {
               style={styles.personphoto}
             />
           </View>
+          <View style={styles.profilebox}>
+            <View>
+              <Text style={styles.name}>T.Ramesh</Text>
+              <Text style={styles.expertname}>Tv Repair Expert</Text>
+              <Text style={styles.miniprice}>Service Cost Start</Text>
+              <Text style={styles.price}>Rs:₹500/-</Text>
+            </View>
+            <Image
+              source={require("./assets/profile.jpg")}
+              style={styles.personphoto}
+            />
+          </View>
         </View>
 
         <StatusBar style="auto" />
@@ -160,8 +172,8 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   center: {
-    flexDirection: "row",
-    justifyContent: "space-around",
+    flexDirection: "column",
+    alignItems: "center",
   },
   profilebox: {
     width: 370,
