@@ -10,6 +10,7 @@ import {
 import { Feather } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { symbolicateLogNow } from "react-native/Libraries/LogBox/Data/LogBoxData";
 
 export default function App() {
   return (
@@ -77,7 +78,13 @@ export default function App() {
         <Text style={styles.Heading}>Book Your Service</Text>
 
         <View style={styles.center}>
-          <View style={styles.profilebox}></View>
+          <View style={styles.profilebox}>
+            <View>
+              <Text style={styles.name}>T.Ramesh</Text>
+              <Text style={styles.expertname}>Tv Repair Expert</Text>
+              <Text>Service Cost Rs:₹500/- </Text>
+            </View>
+          </View>
         </View>
 
         <StatusBar style="auto" />
@@ -157,5 +164,16 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     borderRadius: 10,
     marginBottom: 15,
+    flexDirection: "row",
+    justifyContent: "space-around",
+    padding: 10,
+  },
+  name: {
+    fontSize: 25,
+    fontWeight: "bold",
+  },
+  expertname: {
+    fontSize: 15,
+    marginTop: 10,
   },
 });
