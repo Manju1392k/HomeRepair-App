@@ -82,7 +82,7 @@ export default function App() {
             <View>
               <Text style={styles.name}>T.Ramesh</Text>
               <Text style={styles.expertname}>Tv Repair Expert</Text>
-              <Text style={styles.miniprice}>Service Cost Start</Text>
+              <Text style={styles.miniprice}>Service Cost Starting</Text>
               <Text style={styles.price}>Rs:₹500/-</Text>
             </View>
             <Image
@@ -90,12 +90,13 @@ export default function App() {
               style={styles.personphoto}
             />
           </View>
+
           <View style={styles.profilebox}>
             <View>
-              <Text style={styles.name}>T.Ramesh</Text>
-              <Text style={styles.expertname}>Tv Repair Expert</Text>
-              <Text style={styles.miniprice}>Service Cost Start</Text>
-              <Text style={styles.price}>Rs:₹500/-</Text>
+              <Text style={styles.name}>John</Text>
+              <Text style={styles.expertname}>Fan Repair Expert</Text>
+              <Text style={styles.miniprice}>Service Cost Starting</Text>
+              <Text style={styles.price}>Rs:₹200/-</Text>
             </View>
             <Image
               source={require("./assets/profile.jpg")}
