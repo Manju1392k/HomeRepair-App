@@ -110,6 +110,19 @@ export default function App() {
               style={styles.personphoto}
             />
           </View>
+
+          <View style={styles.profilebox}>
+            <View>
+              <Text style={styles.name}>Raj Kumar.k</Text>
+              <Text style={styles.expertname}>Console Repair Expert</Text>
+              <Text style={styles.miniprice}>Service Cost Starting</Text>
+              <Text style={styles.price}>Rs:₹2000/-</Text>
+            </View>
+            <Image
+              source={require("./assets/profile.jpg")}
+              style={styles.personphoto}
+            />
+          </View>
         </View>
 
         <StatusBar style="auto" />
@@ -131,6 +144,7 @@ const styles = StyleSheet.create({
     width: 350,
     height: 130,
     marginTop: 10,
+    borderRadius: 5,
   },
   navbar: {
     marginTop: 24,
