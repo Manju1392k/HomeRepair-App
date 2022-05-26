@@ -82,10 +82,10 @@ export default function App() {
             <View>
               <Text style={styles.name}>T.Ramesh</Text>
               <Text style={styles.expertname}>Tv Repair Expert</Text>
-              <Text style={styles.price}>
-                Service Cost Rs:₹500/- Starting..
-              </Text>
+              <Text style={styles.miniprice}>Service Cost Start</Text>
+              <Text style={styles.price}>Rs:₹500/-</Text>
             </View>
+            <Image />
           </View>
         </View>
 
@@ -175,11 +175,15 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   expertname: {
-    fontSize: 15,
+    fontSize: 16,
     marginTop: 5,
   },
   price: {
     fontSize: 18,
     fontWeight: "bold",
+  },
+  miniprice: {
+    fontSize: 13,
+    color: "green",
   },
 });
