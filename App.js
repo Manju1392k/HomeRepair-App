@@ -74,6 +74,12 @@ export default function App() {
           </View>
         </View>
 
+        <Text style={styles.Heading}>Book Your Service</Text>
+
+        <View style={styles.center}>
+          <View style={styles.profilebox}></View>
+        </View>
+
         <StatusBar style="auto" />
       </View>
     </ScrollView>
