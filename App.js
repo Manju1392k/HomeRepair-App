@@ -91,6 +91,7 @@ export default function App() {
               <Text style={styles.expertname}>Tv Repair Expert</Text>
               <Text style={styles.miniprice}>Service Cost Starting</Text>
               <Text style={styles.price}>Rs:₹500/-</Text>
+              <Text style={styles.callNow}>CallNow</Text>
             </View>
             <Image
               source={require("./assets/profile.jpg")}
@@ -104,6 +105,7 @@ export default function App() {
               <Text style={styles.expertname}>Fan Repair Expert</Text>
               <Text style={styles.miniprice}>Service Cost Starting</Text>
               <Text style={styles.price}>Rs:₹200/-</Text>
+              <Text style={styles.callNow}>CallNow</Text>
             </View>
             <Image
               source={require("./assets/profile.jpg")}
@@ -117,6 +119,7 @@ export default function App() {
               <Text style={styles.expertname}>Console Repair Expert</Text>
               <Text style={styles.miniprice}>Service Cost Starting</Text>
               <Text style={styles.price}>Rs:₹2000/-</Text>
+              <Text style={styles.callNow}>CallNow</Text>
             </View>
             <Image
               source={require("./assets/profile.jpg")}
@@ -132,6 +135,7 @@ export default function App() {
               </Text>
               <Text style={styles.miniprice}>Service Cost Starting</Text>
               <Text style={styles.price}>Rs:₹1700/-</Text>
+              <Text style={styles.callNow}>CallNow</Text>
             </View>
             <Image
               source={require("./assets/profile.jpg")}
@@ -145,6 +149,7 @@ export default function App() {
               <Text style={styles.expertname}>Computer Repair Expert</Text>
               <Text style={styles.miniprice}>Service Cost Starting</Text>
               <Text style={styles.price}>Rs:₹2700/-</Text>
+              <Text style={styles.callNow}>CallNow</Text>
             </View>
             <Image
               source={require("./assets/profile.jpg")}
@@ -160,6 +165,7 @@ export default function App() {
               </Text>
               <Text style={styles.miniprice}>Service Cost Starting</Text>
               <Text style={styles.price}>Rs:₹2700/-</Text>
+              <Text style={styles.callNow}>CallNow</Text>
             </View>
             <Image
               source={require("./assets/profile.jpg")}
@@ -281,5 +287,11 @@ const styles = StyleSheet.create({
     height: 100,
     width: 100,
     borderRadius: 50,
+  },
+  callNow: {
+    marginTop: 5,
+    marginBottom: 5,
+    color: "blue",
+    fontWeight: "bold",
   },
 });
